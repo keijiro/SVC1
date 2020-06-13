@@ -12,4 +12,6 @@ encode()
     $1.mp4
 }
 
-encode Cut1
+#encode Cut1
+encode Cut2a
+encode Cut2b
