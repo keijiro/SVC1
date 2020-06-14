@@ -15,4 +15,5 @@ encode()
 #encode Cut1
 #encode Cut2a
 #encode Cut2b
-encode Cut3
+#encode Cut3
+encode Cut4
