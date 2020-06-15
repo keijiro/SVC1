@@ -21,9 +21,9 @@ MonoBehaviour:
   uiBounds:
     serializedVersion: 2
     x: 1164
-    y: 26
-    width: 2770
-    height: 2191
+    y: -238
+    width: 1938
+    height: 2454
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1080,7 +1080,7 @@ VisualEffectResource:
       float tmp_v = attributes.color[2];\n\t\t\t        float4 tmp_x = float4(tmp_t,
       tmp_u, tmp_v, (float)1);\n\t\t\t        \n\t\t\t        _BaseColor__ = tmp_x;\n\t\t\t   
       }\n\t\t\t    o._BaseColor = _BaseColor__;float4 _LineColor__ = (float4)0;{\n\t\t\t       
-      \n\t\t\t        _LineColor__ = float4(0, 14.9285288, 8.58179379, 1);\n\t\t\t   
+      \n\t\t\t        _LineColor__ = float4(0, 3.33240461, 3.95334935, 1);\n\t\t\t   
       }\n\t\t\t    o._LineColor = _LineColor__;\n\n\t\t\t\t\n\t\t\t\treturn o;\n\t\t\t}\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t#include
       \"Packages/com.unity.visualeffectgraph/Shaders/VFXCommonOutput.hlsl\"\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t#define
       VFX_SUPPORT_MAIN_TEXTURE_SAMPLING_IN_FRAGMENT_DEPTH 1\n\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t#ifndef
@@ -1263,7 +1263,7 @@ VisualEffectResource:
       float tmp_v = attributes.color[2];\n\t\t\t        float4 tmp_x = float4(tmp_t,
       tmp_u, tmp_v, (float)1);\n\t\t\t        \n\t\t\t        _BaseColor__ = tmp_x;\n\t\t\t   
       }\n\t\t\t    o._BaseColor = _BaseColor__;float4 _LineColor__ = (float4)0;{\n\t\t\t       
-      \n\t\t\t        _LineColor__ = float4(0, 14.9285288, 8.58179379, 1);\n\t\t\t   
+      \n\t\t\t        _LineColor__ = float4(0, 3.33240461, 3.95334935, 1);\n\t\t\t   
       }\n\t\t\t    o._LineColor = _LineColor__;\n\n\t\t\t\t\n\t\t\t\treturn o;\n\t\t\t}\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t#include
       \"Packages/com.unity.visualeffectgraph/Shaders/VFXCommonOutput.hlsl\"\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t#define
       VFX_SUPPORT_MAIN_TEXTURE_SAMPLING_IN_FRAGMENT_DEPTH 1\n\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t#ifndef
@@ -1453,7 +1453,7 @@ VisualEffectResource:
       float tmp_v = attributes.color[2];\n\t\t\t        float4 tmp_x = float4(tmp_t,
       tmp_u, tmp_v, (float)1);\n\t\t\t        \n\t\t\t        _BaseColor__ = tmp_x;\n\t\t\t   
       }\n\t\t\t    o._BaseColor = _BaseColor__;float4 _LineColor__ = (float4)0;{\n\t\t\t       
-      \n\t\t\t        _LineColor__ = float4(0, 14.9285288, 8.58179379, 1);\n\t\t\t   
+      \n\t\t\t        _LineColor__ = float4(0, 3.33240461, 3.95334935, 1);\n\t\t\t   
       }\n\t\t\t    o._LineColor = _LineColor__;\n\n\t\t\t\t\n\t\t\t\treturn o;\n\t\t\t}\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t#include
       \"Packages/com.unity.visualeffectgraph/Shaders/VFXCommonOutput.hlsl\"\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\t#include
       \"Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl\"\n\t\t\t\t\t#include
@@ -1748,7 +1748,7 @@ VisualEffectResource:
         - m_ExpressionIndex: 1
           m_Value: {x: 0.299, y: 0.587, z: 0.114, w: 0}
         - m_ExpressionIndex: 29
-          m_Value: {x: 0, y: 14.928529, z: 8.581794, w: 1}
+          m_Value: {x: 0, y: 3.3324046, z: 3.9533494, w: 1}
       m_Uint:
         m_Array:
         - m_ExpressionIndex: 19
@@ -1800,8 +1800,8 @@ VisualEffectResource:
         - m_ExpressionIndex: 6
           m_Value:
             serializedVersion: 2
-            key0: {r: 0.09144712, g: 0.122254685, b: 0.14150941, a: 1}
-            key1: {r: 1.7520474, g: 2.335662, b: 2.4276736, a: 1}
+            key0: {r: 0, g: 0, b: 0, a: 1}
+            key1: {r: 0.54185516, g: 1.5416178, b: 1.6986055, a: 1}
             key2: {r: 0, g: 0, b: 0, a: 0}
             key3: {r: 0, g: 0, b: 0, a: 0}
             key4: {r: 0, g: 0, b: 0, a: 0}
@@ -1830,7 +1830,7 @@ VisualEffectResource:
         - m_ExpressionIndex: 10
           m_Value:
             serializedVersion: 2
-            key0: {r: 2.3601294, g: 5.422664, b: 6.498019, a: 1}
+            key0: {r: 6.4980197, g: 2.3814733, b: 4.550037, a: 1}
             key1: {r: 0, g: 0, b: 0, a: 1}
             key2: {r: 0, g: 0, b: 0, a: 0}
             key3: {r: 0, g: 0, b: 0, a: 0}
@@ -1839,7 +1839,7 @@ VisualEffectResource:
             key6: {r: 0, g: 0, b: 0, a: 0}
             key7: {r: 0, g: 0, b: 0, a: 0}
             ctime0: 0
-            ctime1: 6168
+            ctime1: 6746
             ctime2: 0
             ctime3: 0
             ctime4: 0
@@ -2999,7 +2999,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614874}
       inputSlot: {fileID: 8926484042661614941}
-    position: {x: 3336, y: 675}
+    position: {x: 2504, y: 411}
     expandedSlots: []
     expanded: 0
   - m_Id: 2
@@ -3492,7 +3492,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614923}
-  m_UIPosition: {x: 3509, y: 26}
+  m_UIPosition: {x: 2677, y: -238}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -3641,7 +3641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 3510, y: 346}
+  m_UIPosition: {x: 2678, y: 82}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -4024,7 +4024,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614940}
-  m_UIPosition: {x: 3509, y: 583}
+  m_UIPosition: {x: 2677, y: 319}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -4266,7 +4266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 3510, y: 811}
+  m_UIPosition: {x: 2678, y: 547}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -4918,7 +4918,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.0914471223950386,"g":0.12225468456745148,"b":0.14150941371917725,"a":1.0},"time":0.0},{"color":{"r":1.7520474195480347,"g":2.3356618881225588,"b":2.427673578262329,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"time":0.0},{"color":{"r":0.5418551564216614,"g":1.541617751121521,"b":1.6986055374145508,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
     m_Space: 2147483647
   m_Property:
     name: Gradient
@@ -5493,7 +5493,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":2.3601293563842775,"g":5.422664165496826,"b":6.498019218444824,"a":1.0},"time":0.0},{"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"time":0.0941176488995552}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":6.498019695281982,"g":2.3814733028411867,"b":4.550036907196045,"a":1.0},"time":0.0},{"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"time":0.10293736308813095}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
     m_Space: 2147483647
   m_Property:
     name: Color
@@ -6105,7 +6105,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":0.0,"g":14.928528785705567,"b":8.581793785095215,"a":1.0}'
+      m_SerializableObject: '{"r":0.0,"g":3.332404613494873,"b":3.9533493518829347,"a":1.0}'
     m_Space: 2147483647
   m_Property:
     name: _LineColor
