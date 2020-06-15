@@ -20,10 +20,10 @@ MonoBehaviour:
     collapsed: 0
   uiBounds:
     serializedVersion: 2
-    x: 1562
+    x: 1543
     y: -176
-    width: 971
-    height: 2599
+    width: 990
+    height: 2728
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1328,17 +1328,17 @@ VisualEffectResource:
         - m_ExpressionIndex: 6
           m_Value:
             serializedVersion: 2
-            key0: {r: 0.1718138, g: 0.2894802, b: 0.3679245, a: 1}
-            key1: {r: 2.4837797, g: 3.9533494, b: 3.5600843, a: 1}
-            key2: {r: 0, g: 0, b: 0, a: 0}
+            key0: {r: 11.214025, g: 6.479093, b: 0.68765277, a: 1}
+            key1: {r: 0.92156863, g: 0.5830705, b: 0.56078434, a: 1}
+            key2: {r: 0.36862746, g: 0.17254902, b: 0.25085783, a: 0}
             key3: {r: 0, g: 0, b: 0, a: 0}
             key4: {r: 0, g: 0, b: 0, a: 0}
             key5: {r: 0, g: 0, b: 0, a: 0}
             key6: {r: 0, g: 0, b: 0, a: 0}
             key7: {r: 0, g: 0, b: 0, a: 0}
             ctime0: 0
-            ctime1: 65535
-            ctime2: 0
+            ctime1: 26021
+            ctime2: 65535
             ctime3: 0
             ctime4: 0
             ctime5: 0
@@ -1353,7 +1353,7 @@ VisualEffectResource:
             atime6: 0
             atime7: 0
             m_Mode: 0
-            m_NumColorKeys: 2
+            m_NumColorKeys: 3
             m_NumAlphaKeys: 2
       m_NamedObject:
         m_Array:
@@ -1917,6 +1917,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614714}
   - {fileID: 8926484042661614671}
   - {fileID: 8926484042661614849}
+  - {fileID: 8926484042661614852}
   - {fileID: 8926484042661614793}
   - {fileID: 8926484042661614742}
   - {fileID: 8926484042661614755}
@@ -2541,7 +2542,7 @@ MonoBehaviour:
   m_Children:
   - {fileID: 8926484042661614768}
   - {fileID: 8926484042661614799}
-  m_UIPosition: {x: 2109, y: 1476}
+  m_UIPosition: {x: 2109, y: 1605}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -2637,7 +2638,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614846}
-  m_UIPosition: {x: 2109, y: 2041}
+  m_UIPosition: {x: 2109, y: 2170}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -4200,7 +4201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1562, y: 913}
+  m_UIPosition: {x: 1543, y: 1025}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots: []
@@ -4638,7 +4639,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1581, y: 948}
+  m_UIPosition: {x: 1562, y: 1060}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -4825,7 +4826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1885, y: 977}
+  m_UIPosition: {x: 1866, y: 1089}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:
@@ -5350,7 +5351,7 @@ MonoBehaviour:
   m_InputSlots:
   - {fileID: 8926484042661614850}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   attribute: color
   Composition: 0
   AlphaComposition: 0
@@ -5382,7 +5383,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.17181380093097688,"g":0.28948020935058596,"b":0.3679245114326477,"a":1.0},"time":0.0},{"color":{"r":2.4837796688079836,"g":3.9533493518829347,"b":3.560084342956543,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"time":0.0},{"color":{"r":0.3537735939025879,"g":0.8741006851196289,"b":1.0,"a":1.0},"time":0.31177234649658205},{"color":{"r":3.4585671424865724,"g":0.3425939083099365,"b":1.972780704498291,"a":1.0},"time":0.3970550000667572},{"color":{"r":7.37721061706543,"g":3.3989243507385256,"b":6.1798624992370609,"a":1.0},"time":0.4882429242134094}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
     m_Space: 2147483647
   m_Property:
     name: Color
@@ -5420,3 +5421,65 @@ MonoBehaviour:
     - context: {fileID: 8926484042661614643}
       slotIndex: 0
   eventName: Fire
+--- !u!114 &8926484042661614852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01ec2c1930009b04ea08905b47262415, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Parent: {fileID: 8926484042661614652}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 0
+  m_UISuperCollapsed: 0
+  m_InputSlots:
+  - {fileID: 8926484042661614853}
+  m_OutputSlots: []
+  m_Disabled: 0
+  attribute: color
+  Composition: 0
+  AlphaComposition: 0
+  SampleMode: 2
+  Mode: 1
+  ColorMode: 1
+  channels: 6
+--- !u!114 &8926484042661614853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76f778ff57c4e8145b9681fe3268d8e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 8926484042661614853}
+  m_MasterData:
+    m_Owner: {fileID: 8926484042661614852}
+    m_Value:
+      m_Type:
+        m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":11.214024543762207,"g":6.479093074798584,"b":0.6876527667045593,"a":1.0},"time":0.0},{"color":{"r":0.9215686321258545,"g":0.5830705165863037,"b":0.5607843399047852,"a":1.0},"time":0.3970550000667572},{"color":{"r":0.3686274588108063,"g":0.1725490242242813,"b":0.2508578300476074,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
+    m_Space: 2147483647
+  m_Property:
+    name: Color
+    m_serializedType:
+      m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    attributes: []
+  m_Direction: 0
+  m_LinkedSlots: []
