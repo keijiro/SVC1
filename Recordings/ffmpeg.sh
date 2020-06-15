@@ -13,6 +13,6 @@ encode()
 }
 
 #encode Cut1
-encode Cut2
-#encode Cut3
+#encode Cut2
+encode Cut3
 #encode Cut4
