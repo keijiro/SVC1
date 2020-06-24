@@ -140,6 +140,15 @@
       },
       "url": "https://registry.npmjs.com"
     },
+    "jp.keijiro.metamesh": {
+      "version": "0.0.6",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.1.0"
+      },
+      "url": "https://registry.npmjs.com"
+    },
     "jp.keijiro.recorder.ffmpeg": {
       "version": "1.0.0",
       "depth": 0,
