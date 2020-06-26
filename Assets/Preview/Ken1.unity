@@ -265,7 +265,11 @@ PlayableDirector:
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings: []
+  m_SceneBindings:
+  - key: {fileID: 1302406059640914226, guid: 6cbd61b5b0044de4882f241d1b4b8e66, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -8070646171429743675, guid: 6cbd61b5b0044de4882f241d1b4b8e66, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References:
     - a298be2070a84b54f92de18ff0a2f259: {fileID: 2127006938}
@@ -389,7 +393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hapPlayer: {fileID: 64560840}
-  _propertyName: _UnlitColorMap
+  _propertyName: _BaseTexture
 --- !u!114 &2127006938 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: -3504908821068959351, guid: 0e635865bfa2de75d977a97623cfad88,

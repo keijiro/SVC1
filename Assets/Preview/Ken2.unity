@@ -410,4 +410,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hapPlayer: {fileID: 64560840}
-  _propertyName: _UnlitColorMap
+  _propertyName: _BaseTexture

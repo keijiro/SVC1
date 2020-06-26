@@ -339,7 +339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hapPlayer: {fileID: 323970698}
-  _propertyName: _UnlitColorMap
+  _propertyName: _BaseTexture
 --- !u!114 &1174903281 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: -9043870988648117951, guid: 7b38b08972a7ee3cbb9056eeb829e2f1,
@@ -383,7 +383,11 @@ PlayableDirector:
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings: []
+  m_SceneBindings:
+  - key: {fileID: 1932638584258869682, guid: 992e84e30f157094faad95eecae7ee61, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 3406002997127788884, guid: 992e84e30f157094faad95eecae7ee61, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References:
     - 18d2ee60c50477746bc2a666534ba933: {fileID: 323970699}
