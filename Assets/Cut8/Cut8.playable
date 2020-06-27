@@ -49,7 +49,7 @@ MonoBehaviour:
     m_ClipIn: 0
     m_Asset: {fileID: -9028846169322960729}
     m_Duration: 4
-    m_TimeScale: 0.25
+    m_TimeScale: 0.3
     m_ParentTrack: {fileID: -8070646171429743675}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
@@ -169,25 +169,25 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1.5
-        value: {x: 1.9708256, y: 0.42, z: 0.47809947}
-        inSlope: {x: -0.046025097, y: 0, z: 0.13516088}
-        outSlope: {x: -0.046025097, y: 0, z: 0.13516088}
+        value: {x: 1.949, y: 0.42, z: 0.605}
+        inSlope: {x: -0.06549295, y: 0, z: 0.15887326}
+        outSlope: {x: -0.06549295, y: 0, z: 0.15887326}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 2.3666666
-        value: {x: 1.912, y: 0.70068145, z: 0.592}
-        inSlope: {x: -0.09210527, y: 0.3826087, z: 0.11578948}
-        outSlope: {x: -0.09210527, y: 0.3826087, z: 0.11578948}
+        value: {x: 1.845, y: 0.6549181, z: 0.726}
+        inSlope: {x: -0.18086952, y: 0.4511828, z: 0.09130434}
+        outSlope: {x: -0.18086952, y: 0.4511828, z: 0.09130434}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 3.8
-        value: {x: 1.65, y: 1.3, z: 0.79}
+        value: {x: 1.324, y: 1.1565216, z: 0.815}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -298,17 +298,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 2.3666666
-        value: 0.70068145
-        inSlope: 0.3826087
-        outSlope: 0.3826087
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
         time: 3.8
-        value: 1.3
+        value: 1.1565216
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -419,17 +410,26 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
+        time: 1.5
+        value: 1.949
+        inSlope: -0.06549295
+        outSlope: -0.06549295
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
         time: 2.3666666
-        value: 1.912
-        inSlope: -0.09210527
-        outSlope: -0.09210527
+        value: 1.845
+        inSlope: -0.18086952
+        outSlope: -0.18086952
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 3.8
-        value: 1.65
+        value: 1.324
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -456,17 +456,26 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
+        time: 1.5
+        value: 0.605
+        inSlope: 0.15887326
+        outSlope: 0.15887326
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
         time: 2.3666666
-        value: 0.592
-        inSlope: 0.11578948
-        outSlope: 0.11578948
+        value: 0.726
+        inSlope: 0.09130434
+        outSlope: 0.09130434
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 3.8
-        value: 0.79
+        value: 0.815
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -978,7 +987,7 @@ MonoBehaviour:
   m_Name: FfmpegRecorderSettings
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 17
+  take: 18
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -1377,7 +1386,7 @@ MonoBehaviour:
     m_ClipIn: 0
     m_Asset: {fileID: -6928319199749573826}
     m_Duration: 4
-    m_TimeScale: 0.25
+    m_TimeScale: 0.3
     m_ParentTrack: {fileID: 1302406059640914226}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
