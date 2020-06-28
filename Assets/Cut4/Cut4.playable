@@ -625,7 +625,7 @@ MonoBehaviour:
   m_Name: FfmpegRecorderSettings
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 5
+  take: 7
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -807,15 +807,15 @@ AnimationClip:
         time: 0
         value: -0.8811593
         inSlope: 0
-        outSlope: 1
+        outSlope: 1.0187459
         tangentMode: 69
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 4
-        value: 3.1188407
-        inSlope: 1
+        time: 8
+        value: 7.268808
+        inSlope: 1.0187459
         outSlope: 0
         tangentMode: 69
         weightedMode: 0
@@ -849,7 +849,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 4
+    m_StopTime: 8
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -872,15 +872,15 @@ AnimationClip:
         time: 0
         value: -0.8811593
         inSlope: 0
-        outSlope: 1
+        outSlope: 1.0187459
         tangentMode: 69
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 4
-        value: 3.1188407
-        inSlope: 1
+        time: 8
+        value: 7.268808
+        inSlope: 1.0187459
         outSlope: 0
         tangentMode: 69
         weightedMode: 0
